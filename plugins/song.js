@@ -15,7 +15,7 @@ const search = await yts(q)
 const data = search.videos[0];
 const url = data.url
 
-let desc = `song`
+let desc = `*Downloading Your Song* ⬇️✅`
   
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption: desc},{quoted:mek})
 
