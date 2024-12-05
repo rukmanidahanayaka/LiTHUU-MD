@@ -18,8 +18,8 @@ const msg = `msg`
   await conn.sendMessage( from, { image: { url: tiktok.result.cover || '' }, caption: msg }, { quoted: mek });
 
 await conn.sendMessage(from, { audio: { url: tiktok.result.sound }, mimetype: "audio/mpeg" }, { quoted: mek });
-await conn.sendMessage(from, { video: { url: tiktok.result.wmVideo }, mimetype: "video/mp4", caption: `${tiktok.result.title}\n\nWATERMARK VIDEO ✅\n\n> *Made By Sanju Bro & Sadiya Tech ™*` }, { quoted: mek });
-await conn.sendMessage(from, { video: { url: tiktok.result.hdVideo }, mimetype: "video/mp4", caption: `${tiktok.result.title}\n\nNO-WATERMARK VIDEO ✅\n\n> *Made By Sanju Bro & Sadiya Tech ™*` }, { quoted: mek });
+await conn.sendMessage(from, { video: { url: tiktok.result.wmVideo }, mimetype: "video/mp4", caption: `${tiktok.result.title}\n\nWATERMARK VIDEO ✅\n\n> *LITHUU-MD 2024 *` }, { quoted: mek });
+await conn.sendMessage(from, { video: { url: tiktok.result.hdVideo }, mimetype: "video/mp4", caption: `${tiktok.result.title}\n\nNO-WATERMARK VIDEO ✅\n\n> *LITHUU-MD 2024 *` }, { quoted: mek });
 
 }catch(e){
 console.log(e)
