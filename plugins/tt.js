@@ -3,7 +3,6 @@ const { fetchJson } = require('../lib/functions')
 
 cmd({
     pattern: "tiktok",
-    alias: ["tt","ttdown"],
     desc: "download tiktok video",
     category: "download",
     filename: __filename
